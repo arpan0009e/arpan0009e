@@ -25,7 +25,7 @@
 ## 📌 Featured Projects
 ### 🐶 Cat vs Dog Image Classifier
 🔹 CNN-based image classification using PyTorch  
-🔹 Accuracy: XX%  
+🔹 Accuracy: 92%  
 🔹 Includes training, evaluation & deployment-ready structure  
 👉 [View Project](https://github.com/arpan0009e/cat-dog-image-classifier)
 
