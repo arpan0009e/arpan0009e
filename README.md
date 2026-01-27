@@ -49,7 +49,7 @@
 ---
 
 ## 📫 Connect With Me
-- 💼 LinkedIn: *(add your LinkedIn link)*
-- 📧 Email: *(professional email)*
+- 💼 LinkedIn: *https://www.linkedin.com/in/arpan0009e*
+- 📧 Email: *arpanmondal708@gmail.com*
 
 ⭐ *I love learning and building real-world AI solutions*
