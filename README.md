@@ -41,13 +41,6 @@
 
 ---
 
-## 📊 GitHub Stats
-![Arpan's GitHub stats](https://github-readme-stats.vercel.app/api?username=arpan0009e&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=arpan0009e&layout=compact&theme=tokyonight)
-
----
-
 ## 📫 Connect With Me
 - 💼 LinkedIn: *https://www.linkedin.com/in/arpan0009e*
 - 📧 Email: *arpanmondal708@gmail.com*
