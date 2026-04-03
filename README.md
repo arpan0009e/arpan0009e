@@ -1,14 +1,18 @@
 <div align="center">
 
-# Arpan Mondal
+<!-- HEADER BANNER -->
+<!-- <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Arpan%20Mondal&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%7C%20B.Tech%20(AI%20%26%20ML)&descAlignY=58&descSize=18&animation=fadeIn" /> -->
 
-### AI / ML Engineer · B.Tech in Artificial Intelligence & Machine Learning
-### NIMS University, Jaipur 🇮🇳
+<!-- TYPING ANIMATION -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+Real-World+AI+Solutions+%F0%9F%A4%96;Deep+Learning+%7C+Computer+Vision+%7C+PyTorch;Open+to+Internships+%26+Entry-Level+Roles+%F0%9F%9A%80)](https://git.io/typing-svg)
 
+<br/>
+
+<!-- BADGES -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arpan0009e)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arpanmondal708@gmail.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arpanmondal708@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arpan0009e)
-[![Resume](https://img.shields.io/badge/Resume-00897B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://github.com/arpan0009e/arpan0009e/raw/main/Arpan_Mondal_Resume.pdf)
+![Profile Views](https://komarev.com/ghpvc/?username=arpan0009e&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS)
 
 </div>
 
@@ -19,17 +23,16 @@
 ```python
 class ArpanMondal:
     def __init__(self):
-        self.name        = "Arpan Mondal"
-        self.role        = "AI / ML Engineer"
-        self.degree      = "B.Tech — Artificial Intelligence & Machine Learning"
-        self.university  = "NIMS University, Jaipur (2023 – 2027)"
-        self.location    = "Jaipur, India 🇮🇳"
-        self.focus       = ["Deep Learning", "Computer Vision", "NLP", "LLMs"]
-        self.tools       = ["PyTorch", "TensorFlow", "Hugging Face", "Scikit-learn"]
-        self.open_to     = "Internships & Entry-Level AI/ML Roles 🚀"
+        self.name       = "Arpan Mondal"
+        self.role       = "Aspiring AI / ML Engineer"
+        self.education  = "B.Tech in Artificial Intelligence & Machine Learning"
+        self.location   = "Jaipur, India 🇮🇳"
+        self.interests  = ["Machine Learning", "Deep Learning", "Computer Vision"]
+        self.currently  = "Seeking Internship / Entry-Level AI-ML Roles 🚀"
+        self.passion    = "Turning data into intelligent solutions"
 
     def say_hi(self):
-        print("Thanks for stopping by! Let's build something intelligent together.")
+        print("Thanks for stopping by! Let's build something amazing together.")
 
 me = ArpanMondal()
 me.say_hi()
@@ -39,77 +42,49 @@ me.say_hi()
 
 ## 🛠️ Tech Stack
 
+<div align="center">
+
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-**AI / ML Frameworks**
+**ML / DL Frameworks**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![NLTK](https://img.shields.io/badge/NLTK-3DDC84?style=flat-square&logo=python&logoColor=white)
-![SpaCy](https://img.shields.io/badge/SpaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
 **Data & Visualization**
 
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
 
-**Cloud & DevOps**
-
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-
+**Tools & Databases**
+ 
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+ 
+</div>
+ 
 ---
 
-## 💼 Experience
+## 🚀 Featured Projects
 
-### 🤖 AI & Cloud Technology Intern — Edunet Foundation *(Sept 2025 – Oct 2025)*
-- Developed and deployed AI models on cloud infrastructure using **AWS** and **GCP**
-- Built end-to-end ML pipelines for preprocessing, training, and deployment
-- Improved model inference time by **20%** through architecture and pipeline optimization
-- Integrated ML models with REST APIs and JSON for seamless cloud-service communication
+<div align="center">
 
----
+| Project | Description | Tech | Highlight |
+|--------|-------------|------|-----------|
+| 🐶 [**Cat vs Dog Classifier**](https://github.com/arpan0009e/cat-dog-image-classifier) | CNN-based image classification with deployment-ready structure | PyTorch, CNN | **92% Accuracy** |
+| 🍕 [**Pizza Price Prediction**](https://github.com/arpan0009e/Pizza_Price_Prediction) | Regression model with data preprocessing & visualization | Scikit-learn, Pandas | End-to-End ML |
+| 🚚 [**Food Delivery Time Prediction**](https://github.com/arpan0009e/Food_Delivery_Time_Prediction) | Feature engineering on real-world dataset | NumPy, Scikit-learn | Real-World Data |
 
-## 🚀 Projects
-
-### 🧠 AI-Powered Sentiment Analysis System *(2025)*
-`Python` `NLP` `TensorFlow` `LSTM` `Flask`
-- Built an end-to-end sentiment analysis app using **LSTM networks** with **87% accuracy**
-- Processed **50K+ text samples** using tokenization and word embeddings
-- Deployed as a **REST API** with Flask for real-time predictions
-
----
-
-### 🖼️ Image Classification with CNN *(2026)*
-`Python` `CNN` `Keras` `OpenCV`
-- Designed and trained a CNN for multi-class image classification with **92% accuracy**
-- Applied data augmentation to improve robustness and reduce overfitting
-- Optimized architecture to cut parameters by **30%** while maintaining performance
-
----
-
-### 🐶 Cat vs Dog Classifier
-`PyTorch` `CNN`
-→ [View on GitHub](https://github.com/arpan0009e/cat-dog-image-classifier)
-
-### 🍕 Pizza Price Prediction
-`Scikit-learn` `Pandas`
-→ [View on GitHub](https://github.com/arpan0009e/Pizza_Price_Prediction)
-
-### 🚚 Food Delivery Time Prediction
-`NumPy` `Scikit-learn`
-→ [View on GitHub](https://github.com/arpan0009e/Food_Delivery_Time_Prediction)
+</div>
 
 ---
 
@@ -128,39 +103,26 @@ me.say_hi()
 
 ---
 
-## 🏆 Achievements & Certifications
-
-| Type | Detail |
-|------|--------|
-| 📜 Certification | Data Science BootCamp — ML Models |
-| 📜 Certification | Introduction to Data Science |
-| 📜 Certification | Introduction to Generative AI |
-| 📜 Certification | Mastering C++ Programming |
-| 🏅 Hackathon | Smart India Hackathon Participant |
-| 🌟 Honor | National Adventure Programme — Bharat Scout & Guide |
-| 🌟 Honor | National Standard Examination in Junior Science |
-
----
-
 ## 🎯 Current Goals
 
-- 🔍 Actively seeking **AI/ML Internships** (2025–2026)
-- 📚 Deepening expertise in **Transformers, LLMs & NLP**
-- 🛠️ Building **production-ready, deployable ML projects**
-- 🤝 Open to **open-source AI/ML collaborations**
+- 🔍 &nbsp; Actively looking for **AI/ML Internships** (2025)
+- 📚 &nbsp; Deepening knowledge in **Transformers & NLP**
+- 🛠️ &nbsp; Building more **end-to-end deployable ML projects**
+- 🤝 &nbsp; Open to **collaborations** on AI/ML open-source projects
 
 ---
 
 <div align="center">
 
-### 💬 Let's Connect & Build Something Intelligent Together!
+### 💬 Let's Connect & Build Together!
 
 [![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arpan0009e)
 [![Email](https://img.shields.io/badge/Send%20an%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arpanmondal708@gmail.com)
-[![Resume](https://img.shields.io/badge/View%20My%20Resume-00897B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://github.com/arpan0009e/arpan0009e/raw/main/Arpan_Mondal_Resume.pdf)
 
 <br/>
 
 *"The best way to predict the future is to build it with AI."*
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" />
 
 </div>
