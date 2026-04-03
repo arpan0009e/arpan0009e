@@ -11,7 +11,7 @@
 <!-- BADGES -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arpan0009e)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arpanmondal708@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arpan0009e)
+[![Resume](https://img.shields.io/badge/View%20My%20Resume-00897B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://drive.google.com/file/d/1o5NIxA7jt3gwbkxdDijbH9VYNXVRJwmw/view?usp=sharing)
 ![Profile Views](https://komarev.com/ghpvc/?username=arpan0009e&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS)
 
 </div>
