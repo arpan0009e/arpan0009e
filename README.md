@@ -101,15 +101,15 @@ me.say_hi()
 
 </div>
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 <div align="center">
 
 | Project | Description | Tech | Highlight |
 |--------|-------------|------|-----------|
-| 🐶 [**Cat vs Dog Classifier**](https://github.com/arpan0009e/cat-dog-image-classifier) | CNN-based image classification with deployment-ready structure | PyTorch, CNN | **92% Accuracy** |
-| 🍕 [**Pizza Price Prediction**](https://github.com/arpan0009e/Pizza_Price_Prediction) | Regression model with data preprocessing & visualization | Scikit-learn, Pandas | End-to-End ML |
-| 🚚 [**Food Delivery Time Prediction**](https://github.com/arpan0009e/Food_Delivery_Time_Prediction) | Feature engineering on real-world dataset | NumPy, Scikit-learn | Real-World Data |
+| [**Cat vs Dog Classifier**](https://github.com/arpan0009e/cat-dog-image-classifier) | CNN-based image classification with deployment-ready structure | PyTorch, CNN | **92% Accuracy** |
+|  [**House Price Prediction**](https://github.com/arpan0009e/House_Price_Prediciton) | Regression model with data preprocessing & visualization | Scikit-learn, Pandas | End-to-End ML |
+|  [**Food Delivery Time Prediction**](https://github.com/arpan0009e/Food_Delivery_Time_Prediction) | Feature engineering on real-world dataset | NumPy, Scikit-learn | Real-World Data |
 
 </div>
 
