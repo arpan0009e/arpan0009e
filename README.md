@@ -35,7 +35,7 @@ class ArpanMondal:
         print("Thanks for stopping by! Let's build something amazing together.")
 
 me = ArpanMondal()
-me.say_hi()
+
 ```
 
 ---
