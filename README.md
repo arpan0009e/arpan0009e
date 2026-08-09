@@ -131,7 +131,7 @@ me = ArpanMondal()
 
 ## 🎯 Current Goals
 
-- 🔍 &nbsp; Actively looking for **AI/ML Internships** (2025)
+- 🔍 &nbsp; Actively looking for **AI/ML Internships** (2026)
 - 📚 &nbsp; Deepening knowledge in **Transformers & NLP**
 - 🛠️ &nbsp; Building more **end-to-end deployable ML projects**
 - 🤝 &nbsp; Open to **collaborations** on AI/ML open-source projects
