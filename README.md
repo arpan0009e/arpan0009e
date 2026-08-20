@@ -118,12 +118,12 @@ me = ArpanMondal()
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=arpan0009e&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=arpan0009e&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=arpan0009e&theme=tokyonight&hide_border=true" />
 
 <br/>
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpan0009e&layout=compact&theme=tokyonight&hide_border=true" />
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpan0009e&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 
 </div>
 
