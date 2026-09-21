@@ -4,7 +4,7 @@
 <!-- <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Arpan%20Mondal&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%7C%20B.Tech%20(AI%20%26%20ML)&descAlignY=58&descSize=18&animation=fadeIn" /> -->
 
 <!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+Real-World+AI+Solutions+%F0%9F%A4%96;Deep+Learning+%7C+Computer+Vision+%7C+PyTorch;Open+to+Internships+%26+Entry-Level+Roles+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+Real-World+AI+Solutions;Deep+Learning+%7C+Computer+Vision+%7C+PyTorch;Open+to+Internships+%26+Entry-Level+Roles)](https://git.io/typing-svg)
 
 <br/>
 
@@ -18,7 +18,7 @@
 
 ---
 
-## 👨‍💻 About Me
+##  About Me
 
 ```python
 class ArpanMondal:
@@ -28,7 +28,7 @@ class ArpanMondal:
         self.education  = "B.Tech in Artificial Intelligence & Machine Learning"
         self.location   = "Jaipur, India 🇮🇳"
         self.interests  = ["Machine Learning", "Deep Learning", "Computer Vision"]
-        self.currently  = "Seeking Internship / Entry-Level AI-ML Roles 🚀"
+        self.currently  = "Seeking Internship / Entry-Level AI-ML Roles "
         self.passion    = "Turning data into intelligent solutions"
 
     def say_hi(self):
@@ -40,7 +40,7 @@ me = ArpanMondal()
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 <div align="center"> 
 
@@ -106,7 +106,7 @@ me = ArpanMondal()
 
 | Project | Description | Tech | Highlight |
 |--------|-------------|------|-----------|
-| [**Cat vs Dog Classifier**](https://github.com/arpan0009e/cat-dog-image-classifier) | CNN-based image classification with deployment-ready structure | PyTorch, CNN | **92% Accuracy** |
+| [**MedExplain**](https://github.com/arpan0009e/MedExplain) | RAG Based Medical Report Simplifier  | FastAPI, RAG, LLM| AI in HealthCare
 |  [**House Price Prediction**](https://github.com/arpan0009e/House_Price_Prediciton) | Regression model with data preprocessing & visualization | Scikit-learn, Pandas | End-to-End ML |
 |  [**Food Delivery Time Prediction**](https://github.com/arpan0009e/Food_Delivery_Time_Prediction) | Feature engineering on real-world dataset | NumPy, Scikit-learn | Real-World Data |
 
@@ -129,12 +129,12 @@ me = ArpanMondal()
 
 ---
 
-## 🎯 Current Goals
+##  Current Goals
 
-- 🔍 &nbsp; Actively looking for **AI/ML Internships** (2026)
-- 📚 &nbsp; Deepening knowledge in **Transformers & NLP**
-- 🛠️ &nbsp; Building more **end-to-end deployable ML projects**
-- 🤝 &nbsp; Open to **collaborations** on AI/ML open-source projects
+-  &nbsp; Actively looking for **AI/ML Internships** (2026)
+-  &nbsp; Deepening knowledge in **Transformers & NLP**
+-  &nbsp; Building more **end-to-end deployable ML projects**
+-  &nbsp; Open to **collaborations** on AI/ML open-source projects
 
 ---
 
