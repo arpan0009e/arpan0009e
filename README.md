@@ -115,6 +115,18 @@ flowchart LR
 - Applied **LoRA + 4-bit QLoRA quantization** (PEFT) to fine-tune efficiently while preserving the base model's general language ability
 - `Python` `PyTorch` `Hugging Face Transformers` `PEFT` `QLoRA`
 
+```mermaid
+flowchart LR
+    A[📚 Custom Q&A Dataset<br/>400+ examples] --> B[Format as<br/>Instruction Prompts]
+    B --> C[Tokenize]
+    D[🤖 Base Open-Source LLM] --> E[4-bit QLoRA<br/>Quantization]
+    E --> F[Attach LoRA Adapters<br/>PEFT]
+    C --> G[Fine-Tune on<br/>Limited GPU]
+    F --> G
+    G --> H[Evaluate<br/>Domain Q&A]
+    H --> I[✅ Domain-Adapted Model]
+```
+
 <br/>
 
 ### ✈️ AI Travel Planner
@@ -123,6 +135,18 @@ flowchart LR
 - Powered by the **Google Gemini API**; recommendations are grounded in real places via the **Google Maps Places API**
 - Deployed on **Streamlit Community Cloud**
 - `Python` `Gemini API` `Streamlit` `Google Maps API`
+
+```mermaid
+flowchart LR
+    A[🧳 User Input<br/>Destination, Days, Budget] --> B[Streamlit UI]
+    B --> C[Prompt Builder]
+    C --> D[Google Gemini API]
+    D --> E[Draft Itinerary]
+    E --> F[Google Maps<br/>Places API]
+    F --> G[Ground Places &<br/>Optimize Routes]
+    G --> H[✅ Day-by-Day Itinerary]
+    H --> B
+```
 
 <br/>
 
@@ -211,7 +235,7 @@ I'm actively looking for **AI/ML internship and entry-level opportunities**. If 
 
 [![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arpan0009e)
 [![Email](https://img.shields.io/badge/Send%20an%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arpanmondal708@gmail.com)
-[![Resume](https://img.shields.io/badge/View%20My%20Resume-00897B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://drive.google.com/file/d/1eHl4UhVUVZ68HB9l8qJSaUUliiJ3exij/view?usp=drive_link)
+[![Resume](https://img.shields.io/badge/View%20My%20Resume-00897B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://drive.google.com/file/d/1o5NIxA7jt3gwbkxdDijbH9VYNXVRJwmw/view?usp=sharing)
 
 <br/>
 
