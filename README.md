@@ -1,7 +1,7 @@
 <!-- ========================= HEADER ========================= -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=240&section=header&text=Arpan%20Mondal&fontSize=62&fontColor=ffffff&fontAlignY=42&desc=AI%20%2F%20ML%20Engineer%20%E2%80%A2%20LLM%20%26%20RAG%20%E2%80%A2%20Backend%20Systems&descAlignY=64&descSize=18&animation=fadeIn" />
+<!-- <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=240&section=header&text=Arpan%20Mondal&fontSize=62&fontColor=ffffff&fontAlignY=42&desc=AI%20%2F%20ML%20Engineer%20%E2%80%A2%20LLM%20%26%20RAG%20%E2%80%A2%20Backend%20Systems&descAlignY=64&descSize=18&animation=fadeIn" /> -->
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1100&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+production-minded+AI+systems;RAG+%7C+LLM+Fine-Tuning+%7C+FastAPI;B.Tech+AI+%26+ML+%E2%80%A2+Class+of+2027;Open+to+AI%2FML+internships+%26+entry-level+roles)](https://git.io/typing-svg)
 
@@ -21,7 +21,7 @@
 
 ---
 
-## 👨‍💻 About
+##  About
 
 ```python
 class Arpan:
@@ -48,7 +48,7 @@ class Arpan:
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 <div align="center">
 
@@ -85,9 +85,9 @@ class Arpan:
 
 ---
 
-## 🚀 Featured Projects
+##  Featured Projects
 
-### 🩺 [MedExplain](https://github.com/arpan0009e/MedExplain) — Medical Report Explanation Platform
+###  [MedExplain](https://github.com/arpan0009e/MedExplain) — Medical Report Explanation Platform
 > Turns complex medical reports into clear, patient-friendly explanations using an LLM + RAG pipeline.
 
 - Built with **FastAPI + Pydantic**, with PDF/document processing, embeddings, and **vector-database retrieval** to ground answers in authoritative medical sources
@@ -108,7 +108,7 @@ flowchart LR
 
 <br/>
 
-### 🧠 Domain-Specific LLM Fine-Tuning (LoRA / QLoRA)
+###  Domain-Specific LLM Fine-Tuning (LoRA / QLoRA)
 > Adapted an open-source LLM to a niche Q&A domain on limited GPU resources.
 
 - Curated a custom instruction-style dataset of **400+ Q&A examples**
@@ -129,7 +129,7 @@ flowchart LR
 
 <br/>
 
-### ✈️ AI Travel Planner
+###  AI Travel Planner
 > Generates personalized, budget-aware, day-by-day travel itineraries.
 
 - Powered by the **Google Gemini API**; recommendations are grounded in real places via the **Google Maps Places API**
@@ -150,7 +150,7 @@ flowchart LR
 
 <br/>
 
-### 📊 More ML Projects
+###  More ML Projects
 
 | Project | What it does | Stack |
 |---|---|---|
@@ -165,7 +165,7 @@ flowchart LR
 
 ---
 
-## 💼 Experience
+##  Experience
 
 <table>
 <tr>
@@ -183,32 +183,32 @@ flowchart LR
 
 ---
 
-## 🎓 Education & Certifications
+##  Education 
 
 **B.Tech — Artificial Intelligence & Machine Learning**, NIMS University, Jaipur · *Jul 2023 – May 2027*
 <br/>
 <sub>Coursework: Data Structures · AI · Machine Learning · Deep Learning · NLP · Cloud Computing</sub>
 
-**Certifications**
-- 🏅 Data Science Bootcamp (ML Models)
-- 🏅 Introduction to Data Science
-- 🏅 Introduction to Generative AI
-- 🏅 Mastering C++ Programming
+**All India Senior School Certificate Examination**, Jawahar Navodaya Vidyalaya, West Medinipur · *Jul 2022*
+<br/>
+<sub>Coursework: Computer Science · Physics · Chemistry ·Mathematics</sub>
+
+
 
 ---
 
-## 🎯 Currently
+##  Currently
 
 | | |
 |---|---|
-| 🔭 **Working on** | Deployable, end-to-end LLM / RAG applications |
-| 🌱 **Learning** | Transformers & NLP internals, MLOps with Docker, DVC and AWS |
-| 🤝 **Open to** | AI/ML internships (including PPO), entry-level roles, and open-source collaboration |
-| ⚡ **Ask me about** | RAG pipelines, QLoRA fine-tuning, FastAPI, ML pipelines |
+|  **Working on** | Deployable, end-to-end LLM / RAG applications |
+|  **Learning** | Transformers & NLP internals, MLOps with Docker, DVC and AWS |
+|  **Open to** | AI/ML internships (including PPO), entry-level roles, and open-source collaboration |
+|  **Ask me about** | RAG pipelines, QLoRA fine-tuning, FastAPI, ML pipelines |
 
 ---
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <div align="center">
 
@@ -227,7 +227,7 @@ flowchart LR
 
 ---
 
-## 💬 Let's Connect
+##  Let's Connect
 
 <div align="center">
 
