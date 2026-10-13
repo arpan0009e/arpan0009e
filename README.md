@@ -15,7 +15,6 @@
 
 <br/>
 
-**[About](#-about) • [Stack](#-tech-stack) • [Projects](#-featured-projects) • [Experience](#-experience) • [Education](#-education--certifications) • [Stats](#-github-stats) • [Contact](#-lets-connect)**
 
 </div>
 
