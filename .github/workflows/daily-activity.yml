@@ -1,3 +1,4 @@
+
 name: Daily Profile Activity Update
 
 on:
@@ -15,6 +16,7 @@ concurrency:
 jobs:
   update-activity:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
@@ -23,17 +25,26 @@ jobs:
 
       - name: Update daily activity
         run: |
+          set -e
+
           TODAY=$(TZ=Asia/Kolkata date '+%d %B %Y')
           FILE="daily-activity.md"
-          if ! grep -Fq -- "- $TODAY" "$FILE"; then
-            printf '\n- %s: Profile maintenance workflow executed successfully.\n' "$TODAY" >> "$FILE"
+
+          touch "$FILE"
+
+          if ! grep -Fq -- "- $TODAY:" "$FILE"; then
+            printf '%s\n' "- $TODAY: Profile maintenance workflow executed successfully." >> "$FILE"
+          else
+            echo "Activity already recorded for $TODAY."
           fi
 
       - name: Commit and push changes
         run: |
           git config user.name "arpan0009e"
           git config user.email "arpanmondal708@gmail.com"
+
           git add daily-activity.md
+
           if ! git diff --cached --quiet; then
             git commit -m "chore: daily profile activity update"
             git push origin HEAD:main
