@@ -1,53 +1,32 @@
-
-name: Daily Profile Activity Update
+name: Daily Profile Update
 
 on:
   schedule:
-    - cron: "35 18 * * *"
+    - cron: "30 4 * * *" # 10:00 AM IST
   workflow_dispatch:
 
 permissions:
   contents: write
 
-concurrency:
-  group: daily-activity
-  cancel-in-progress: false
-
 jobs:
-  update-activity:
+  update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main
-        uses: actions/checkout@v4
-        with:
-          ref: main
+      - name: Checkout repository
+        uses: actions/checkout@v5
 
-      - name: Update daily activity
+      - name: Update activity file
         run: |
-          set -e
+          echo "Last automated update: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" > daily-activity.md
 
-          TODAY=$(TZ=Asia/Kolkata date '+%d %B %Y')
-          FILE="daily-activity.md"
-
-          touch "$FILE"
-
-          if ! grep -Fq -- "- $TODAY:" "$FILE"; then
-            printf '%s\n' "- $TODAY: Profile maintenance workflow executed successfully." >> "$FILE"
-          else
-            echo "Activity already recorded for $TODAY."
-          fi
-
-      - name: Commit and push changes
+      - name: Commit and push
         run: |
           git config user.name "arpan0009e"
           git config user.email "arpanmondal708@gmail.com"
 
           git add daily-activity.md
 
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: daily profile activity update"
-            git push origin HEAD:main
-          else
-            echo "No changes to commit."
-          fi
+          git commit -m "chore: daily profile update" || echo "No changes to commit"
+
+          git push
