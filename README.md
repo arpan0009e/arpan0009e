@@ -35,7 +35,7 @@
 
 I'm a final-year **B.Tech AI & ML** student at **NIMS University, Jaipur**. Most of what I build starts with a plain question: *how do I get a model's answer in front of a real user, and make sure it can be trusted?*
 
-That's why my projects don't stop at a notebook. [MedExplain](https://github.com/arpan0009e/MedExplain) retrieves from authoritative medical sources before the LLM answers. [EduSupport](https://github.com/arpan0009e/EduSupport) puts AI-powered support in front of students. And at Edunet I worked on cutting inference time, not just training accuracy.
+That's why my projects don't stop at a notebook. [MedExplain](https://github.com/arpan0009e/MedExplain) retrieves from authoritative medical sources before the LLM answers. [LLM Fine Tuning](https://github.com/arpan0009e/EduSupport) adapts Qwen2.5-1.5B-Instruct with a LoRA adapter and serves it through a Streamlit app. And at Edunet I worked on cutting inference time, not just training accuracy.
 
 **Right now I'm sharpening:** transformer internals, MLOps with Docker, DVC and AWS, and agentic systems.
 
@@ -128,23 +128,22 @@ flowchart LR
 
 <br/>
 
-### 🎓 [EduSupport](https://github.com/arpan0009e/EduSupport): AI-Powered Student Support Platform
+### 🧠 [LLM Fine Tuning](https://github.com/arpan0009e/EduSupport): Qwen2.5 + LoRA
 
-> **The problem:** students juggle academic questions, coursework and deadlines with no single place to get quick, reliable help.
-> **The approach:** an AI-powered support platform that brings academic assistance together in one app.
+> **The approach:** fine-tune **Qwen2.5-1.5B-Instruct** with a lightweight **LoRA adapter**, then serve it through a Streamlit app that returns clean, structured answers.
 
-- <!-- ADD: 2-3 bullets on what you built (features, your role, tech used, deployment) -->
-- `Python` `FastAPI` `LLM` <!-- ADD: remaining stack tags -->
+- Parameter-efficient fine-tuning with **LoRA / PEFT** on top of **Qwen2.5-1.5B-Instruct**
+- **Streamlit** interface for interacting with the fine-tuned model
+- **Python formatter** post-processes the raw generation into a structured answer
+- `Python` `Qwen2.5` `LoRA` `PEFT` `Hugging Face` `Streamlit`
 
 ```mermaid
-flowchart LR
-    A[🎓 Student Query] --> B[Frontend UI]
-    B --> C[FastAPI Backend]
-    C --> D[Prompt Builder]
-    D --> E[LLM API]
-    E --> F[✅ Support Response]
-    F --> B
-    C <--> G[(MongoDB)]
+flowchart TD
+    A[🎓 Student] --> B[Streamlit Interface]
+    B --> C[Qwen2.5-1.5B-Instruct<br/>+ LoRA Adapter]
+    C --> D[Response Generation]
+    D --> E[Python Formatter]
+    E --> F[✅ Structured Answer]
 ```
 
 <br/>
