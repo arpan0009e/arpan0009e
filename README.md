@@ -35,7 +35,7 @@
 
 I'm a final-year **B.Tech AI & ML** student at **NIMS University, Jaipur**. Most of what I build starts with a plain question: *how do I get a model's answer in front of a real user, and make sure it can be trusted?*
 
-That's why my projects don't stop at a notebook. [MedExplain](https://github.com/arpan0009e/MedExplain) retrieves from authoritative medical sources before the LLM answers. My AI Travel Planner checks its suggestions against real places on Google Maps. And at Edunet I worked on cutting inference time, not just training accuracy.
+That's why my projects don't stop at a notebook. [MedExplain](https://github.com/arpan0009e/MedExplain) retrieves from authoritative medical sources before the LLM answers. [EduSupport](https://github.com/arpan0009e/EduSupport) puts AI-powered support in front of students. And at Edunet I worked on cutting inference time, not just training accuracy.
 
 **Right now I'm sharpening:** transformer internals, MLOps with Docker, DVC and AWS, and agentic systems.
 
@@ -128,26 +128,23 @@ flowchart LR
 
 <br/>
 
-### ✈️ AI Travel Planner
+### 🎓 [EduSupport](https://github.com/arpan0009e/EduSupport): AI-Powered Student Support Platform
 
-> **The problem:** LLM travel plans often include places that don't exist or routes that make no sense.
-> **The approach:** let Gemini draft the itinerary, then ground every stop with the Google Maps Places API.
+> **The problem:** students juggle academic questions, coursework and deadlines with no single place to get quick, reliable help.
+> **The approach:** an AI-powered support platform that brings academic assistance together in one app.
 
-- Personalized, **budget-aware, day-by-day** itineraries from destination, days and budget
-- Powered by the **Google Gemini API**, grounded with the **Google Maps Places API**
-- Deployed on **Streamlit Community Cloud**
-- `Python` `Gemini API` `Streamlit` `Google Maps API`
+- <!-- ADD: 2-3 bullets on what you built (features, your role, tech used, deployment) -->
+- `Python` `FastAPI` `LLM` <!-- ADD: remaining stack tags -->
 
 ```mermaid
 flowchart LR
-    A[🧳 User Input<br/>Destination, Days, Budget] --> B[Streamlit UI]
-    B --> C[Prompt Builder]
-    C --> D[Google Gemini API]
-    D --> E[Draft Itinerary]
-    E --> F[Google Maps<br/>Places API]
-    F --> G[Ground Places &<br/>Optimize Routes]
-    G --> H[✅ Day-by-Day Itinerary]
-    H --> B
+    A[🎓 Student Query] --> B[Frontend UI]
+    B --> C[FastAPI Backend]
+    C --> D[Prompt Builder]
+    D --> E[LLM API]
+    E --> F[✅ Support Response]
+    F --> B
+    C <--> G[(MongoDB)]
 ```
 
 <br/>
